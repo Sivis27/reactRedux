@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test Survey component with default state of empty array 1`] = `
+<div
+  className="todo-list"
+>
+  <p>
+    No Survey / Feedbacks found. Please add some.
+  </p>
+</div>
+`;
+
+exports[`should test SurveyForm component with list of objects 1`] = `
+<div
+  className="todo-list"
+>
+  <ToDoAction
+    items="Apple"
+    key="0"
+  />
+  <ToDoAction
+    items="Mango"
+    key="1"
+  />
+</div>
+`;
