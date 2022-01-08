@@ -43,5 +43,8 @@
     "jest-enzyme": "^7.1.2",
     "redux-devtools": "^3.6.1",
     "redux-devtools-extension": "^2.13.8"
-  }
+  },
+  
+    "setupFiles": ["<rootDir>/src/setupTests.js"]
+   
 }
