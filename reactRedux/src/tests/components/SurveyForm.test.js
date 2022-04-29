@@ -10,3 +10,4 @@ test('should test SurveyForm component with list of objects', () => {
     const wrapper = shallow(<Survey items={['Apple','Mango']} />);
     expect(wrapper).toMatchSnapshot();
    });
+
